@@ -1,25 +1,61 @@
 {
   "name": "@laziness/lazy-cypress",
-  "version": "0.0.0",
   "description": "Automate Cypress integration tests",
-  "keywords": [
-    "react"
-  ],
+  "version": "0.0.0",
   "author": "TK <leandrotk100@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/lazy-cypress.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "private": false,
+  "main": "dist/LazyCypress.js",
+  "module": "dist/LazyCypress.js",
   "files": [
-    "lib"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
-  "publishConfig": {
-    "access": "public"
+  "dependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "typescript": "^3.8.3"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start": "cp -f ./tsconfig.dev.json ./tsconfig.json && react-scripts start",
+    "build": "cp -f ./tsconfig.prod.json ./tsconfig.json && webpack",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "publish": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrotk/laziness"
+  },
+  "homepage": "https://github.com/leandrotk/laziness",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "integration testing",
+    "react"
+  ],
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "webpack-cli": "^3.3.11"
   }
 }
