@@ -22,10 +22,10 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cp -f ./tsconfig.dev.json ./tsconfig.json && react-scripts start",
+    "build": "cp -f ./tsconfig.prod.json ./tsconfig.json && webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "rm -rf dist && NODE_ENV=production npx babel src/lib --out-dir dist --copy-files",
     "publish": "npm run build && npm publish"
   },
   "repository": {
@@ -53,5 +53,9 @@
     "testing",
     "integration testing",
     "react"
-  ]
+  ],
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "webpack-cli": "^3.3.11"
+  }
 }
