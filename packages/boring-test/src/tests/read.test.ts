@@ -1,7 +1,4 @@
-import {
-  getTemplateFile,
-  getComponentName,
-} from "../read";
+import { getTemplateFile, getComponentName } from "../read";
 
 describe("getTemplateFile", () => {
   describe("with no template file", () => {

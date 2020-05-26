@@ -6,7 +6,7 @@ import { promises as fs } from 'fs';
 
 const jsExtension = '.js';
 
-const componentReplacement = (content, componentName) =>
+export const componentReplacement = (content, componentName) =>
   content
     .split("${componentToBeTested}")
     .join(componentName);
@@ -33,19 +33,15 @@ const addInnerComponentsProps = async (content, filePath) => {
     return innerComponentTest;
   }));
 
-  return content
-    .replace('${innerComponents}', innerComponentsTests.join('\n'));
+  return content.replace('${innerComponents}', innerComponentsTests.join('\n'));
 };
 
-const isUiTemplate = (template) =>
-  template === 'ui';
+export const isUiTemplate = (template) => template === 'ui';
 
-const createNewTest = async ({ content, componentName, filePath, template }) => {
+export const createNewTest = async ({ content, componentName, filePath, template }) => {
   const replacedComponentTest = componentReplacement(content, componentName);
 
   return isUiTemplate(template)
     ? await addInnerComponentsProps(replacedComponentTest, filePath)
     : replacedComponentTest;
 };
-
-export { componentReplacement, addInnerComponentsProps, createNewTest };

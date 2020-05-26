@@ -1,6 +1,6 @@
 import { getLastElement, getFirstElement } from "./utils";
 
-const getTemplateFile = template => {
+export const getTemplateFile = (template) => {
   switch (template) {
     case "css":
       return "templates/css.js";
@@ -11,11 +11,9 @@ const getTemplateFile = template => {
   }
 };
 
-const getComponentName = file => {
+export const getComponentName = (file) => {
   const fileList = file.split("/");
   const fileName = getLastElement(fileList);
   const componentName = getFirstElement(fileName.split("."));
   return componentName;
 };
-
-export { getTemplateFile, getComponentName };

@@ -1,6 +1,4 @@
-import {
-  componentReplacement
-} from "../create";
+import { componentReplacement } from "../create";
 
 describe("componentReplacement", () => {
   it("returns the component name from the file", () => {

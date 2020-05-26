@@ -6,15 +6,15 @@ import { createNewTest } from './create';
 import {
   getTemplateFile,
   getComponentName
-} from "./read.js";
+} from './read';
 
 import {
   templateCreationCallback,
   testCreationCallback,
   getTestPath
-} from "./write.js";
+} from './write';
 
-const generateTemplates = async () => {
+export const generateTemplates = async () => {
   const templatesFiles = resolve(__dirname, '../templates');
   const templates = await fs.readdir(templatesFiles);
 
@@ -33,7 +33,7 @@ const generateTemplates = async () => {
   });
 };
 
-const generateTest = async (template, filePath) => {
+export const generateTest = async (template, filePath) => {
   const componentName = getComponentName(filePath);
   const templateFile = getTemplateFile(template);
 
@@ -58,5 +58,3 @@ const generateTest = async (template, filePath) => {
 
   testCreationCallback(await fs.writeFile(newTestPath, newTest));
 };
-
-export { generateTemplates, generateTest };

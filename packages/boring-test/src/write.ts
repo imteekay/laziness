@@ -3,22 +3,22 @@ import {
   getFirstElement,
   getSecondElement,
   excludeLast
-} from "./utils.js";
+} from './utils';
 
 const TESTS = "tests";
 const TEST = "test";
 
-const templateCreationCallback = file => e => {
+export const templateCreationCallback = (file) => (e) => {
   if (e) throw e;
   console.log(`Created ${file} template! 😎`);
 };
 
-const testCreationCallback = e => {
+export const testCreationCallback = (e) => {
   if (e) throw e;
   console.log("Created! 😎");
 };
 
-const getTestFileName = (fileName) => {
+export const getTestFileName = (fileName) => {
   const fileNameList = fileName.split(".");
   const componentName = getFirstElement(fileNameList);
   const fileExtension = getSecondElement(fileNameList);
@@ -26,7 +26,7 @@ const getTestFileName = (fileName) => {
   return [componentName, TEST, fileExtension].join(".");
 };
 
-const getTestPath = (filePath) => {
+export const getTestPath = (filePath) => {
   const fileList = filePath.split("/");
   const fileName = getLastElement(fileList);
   const testFileName = getTestFileName(fileName);
@@ -34,5 +34,3 @@ const getTestPath = (filePath) => {
 
   return [...folders, TESTS, testFileName].join("/");
 };
-
-export { templateCreationCallback, testCreationCallback, getTestPath };
