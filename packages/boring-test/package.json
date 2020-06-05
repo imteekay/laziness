@@ -15,7 +15,7 @@
     "build": "tsdx build",
     "build:run": "tsdx build & node dist/index.js mocks/Component.js -t ui",
     "test": "tsdx test",
-    "lint": "tsdx lint",
+    "lint": "eslint 'src/**/*.ts'",
     "prepare": "tsdx build"
   },
   "peerDependencies": {},

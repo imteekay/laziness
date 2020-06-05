@@ -6,7 +6,7 @@ import { buildNewTestContent } from './build';
 import { getTemplateFile, getComponentName } from './read';
 import { writeNewTest } from './write';
 
-export const generateTemplates = async () => {
+export const generateTemplates = async (): Promise<void> => {
   const templatesFiles = resolve(__dirname, '../templates');
   const templates = await fs.readdir(templatesFiles);
 
@@ -33,7 +33,7 @@ export const generateTemplates = async () => {
 export const generateTest = async (
   template: TemplateType,
   filePath: FilePath
-) => {
+): Promise<void> => {
   const componentName = getComponentName(filePath);
   const templateFile = getTemplateFile(template);
 

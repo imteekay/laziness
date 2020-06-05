@@ -32,7 +32,7 @@ export const getTestPath = (filePath: FilePath): string => {
 export const writeNewTest = async ({
   filePath,
   newTestContent,
-}: WriteProps) => {
+}: WriteProps): Promise<void> => {
   const newTestPath = getTestPath(filePath);
 
   try {
