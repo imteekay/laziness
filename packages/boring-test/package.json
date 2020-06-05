@@ -13,7 +13,7 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "build:run": "tsdx build & node dist/index.js mocks/Component.js -t ui",
+    "build:run": "yarn build && node dist/index.js mocks/Component.tsx -t ui",
     "test": "tsdx test",
     "lint": "eslint 'src/**/*.ts'",
     "prepare": "tsdx build"
