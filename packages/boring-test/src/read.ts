@@ -5,13 +5,13 @@ import { Template } from './Template';
 export const getTemplateFile = (template: string): string => {
   switch (template) {
     case Template.CSS:
-      return 'templates/css.js';
+      return 'templates/css.ts';
     case Template.UI:
-      return 'templates/ui.js';
+      return 'templates/ui.ts';
     case Template.Default:
-      return 'templates/default.js';
+      return 'templates/default.ts';
     default:
-      return 'templates/default.js';
+      return 'templates/default.ts';
   }
 };
 
