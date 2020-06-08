@@ -1,12 +1,21 @@
 import { promises as fs } from 'fs';
 import { resolve } from 'path';
-import { parse } from '@typescript-eslint/typescript-estree';
+import traverse from '@babel/traverse';
+import parser from '@babel/parser';
 
 const start = async () => {
   const sourcePath = resolve(__dirname, '../examples/sum.ts');
   const source = await fs.readFile(sourcePath, 'utf8');
-  const program = parse(source);
-  console.log(program);
+  const ast = parser.parse(source, {
+    sourceType: 'module',
+    plugins: ['typescript'],
+  });
+
+  traverse(ast, {
+    enter(path) {
+      console.log(path);
+    },
+  });
 };
 
 start();
