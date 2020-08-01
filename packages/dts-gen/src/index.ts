@@ -27,5 +27,5 @@ SampleComponent.propTypes = {
 
 export function test() {
   const ast = parser.parse(code);
-  console.log(ast.program.body[0]);
+  console.log(ast.program.body[0].expression);
 }
