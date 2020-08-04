@@ -1,82 +1,39 @@
-import { Node, Identifier, MemberExpression } from '@babel/types';
-import * as parser from '@babel/parser';
-import traverse from '@babel/traverse';
+import { promises as fs } from 'fs';
+import { resolve } from 'path';
+import { parse } from 'react-docgen';
 
-const code = `
-SampleComponent.propTypes = {
-  arrayProp: PropTypes.array,
-  boolProp: PropTypes.bool.isRequired,
-  numberProp: PropTypes.number,
-  objectProp: PropTypes.object,
-  stringProp: PropTypes.string,
-  anyProp: PropTypes.any,
-  elementProp: PropTypes.element,
-  nodeProp: PropTypes.node,
-  arrayOfString: PropTypes.arrayOf(PropTypes.string),
-  onChange: PropTypes.func.isRequired,
-  oneOfString: PropTypes.oneOf(['foo', 'bar']),
-	oneOfStringOrNumber: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-	shapeProp: PropTypes.shape({
-		foo: PropTypes.number,
-		bar: PropTypes.string
-  }).isRequired,
-  /**
-	 * @param {object} value - The param value.
-	 */
-};
-`;
-
-function isIdentifier(node: Node): node is Identifier {
-  return node.type === 'Identifier';
+async function readFile() {
+  const componentFilePath = resolve(__dirname, 'Sample.js');
+  return await fs.readFile(componentFilePath, 'utf8');
 }
 
-function isMemberExpression(node: Node): node is MemberExpression {
-  return node.type === 'MemberExpression';
-}
+// type User = {
+//   name: string;
+//   age: number;
+// };
 
-export function test() {
-  const ast = parser.parse(code);
+// type SampleProps = {
+//   any?: any;
+//   isVisible: boolean;
+//   index?: number;
+//   message?: string;
+//   object?: object;
+//   element?: React.ReactElement<any>;
+//   children?: React.ReactNode;
+//   products?: any[];
+//   messages?: string[];
+//   onChange: (event: object) => void;
+//   status?: 'active' | 'inactive' | 'blocked';
+//   nameOrAge?: string | number;
+//   user: User,
+// };
 
-  const result: string[] = [];
+export async function generate() {
+  const component = await readFile();
+  const componentAST = parse(component);
 
-  traverse(ast, {
-    enter(path) {
-      if (
-        path.node.type === 'ExpressionStatement' &&
-        path.node.expression.type === 'AssignmentExpression' &&
-        path.node.expression.right.type === 'ObjectExpression'
-      ) {
-        path.node.expression.right.properties.forEach(property => {
-          if (property.type === 'ObjectProperty') {
-            let string = '';
-
-            if (isIdentifier(property.key)) {
-              // console.log(property.key.name);
-              string += property.key.name;
-            }
-
-            if (
-              isMemberExpression(property.value) &&
-              isIdentifier(property.value.object)
-            ) {
-              // console.log(property.value.object.name);
-              string += property.value.object.name;
-            }
-
-            if (
-              isMemberExpression(property.value) &&
-              isIdentifier(property.value.property)
-            ) {
-              // console.log(property.value.property.name);
-              string += property.value.property.name;
-            }
-
-            result.push(string);
-          }
-        });
-
-        console.log(result);
-      }
-    },
-  });
+  for (const [propName, prop] of Object.entries(componentAST.props)) {
+    console.log(propName, '-->', prop.type.name);
+    console.log(prop);
+  }
 }

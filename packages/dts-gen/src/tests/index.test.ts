@@ -1,7 +1,7 @@
-import { test } from '../index';
+import { generate } from '../index';
 
-describe('test', () => {
-  it('', () => {
-    test();
+describe('generate', () => {
+  it('', async () => {
+    await generate();
   });
 });
