@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "*.test.tsx"
+  ],
+  "include": [
+    "src/lib"
+  ]
+}
