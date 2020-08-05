@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import { resolve } from 'path';
-import { parse, Prop } from 'react-docgen';
+import { parse, Prop, ValueArray, Props } from 'react-docgen';
 
 async function readFile() {
   const componentFilePath = resolve(__dirname, 'Sample.js');
@@ -8,7 +8,7 @@ async function readFile() {
 }
 
 // interface User = {
-//   name: string;
+//   type: string;
 //   age: number;
 // };
 
@@ -29,7 +29,7 @@ async function readFile() {
 // };
 
 type PropAttrs = {
-  name: string;
+  type: string;
   required: boolean;
 };
 
@@ -52,27 +52,62 @@ const PropMapper: PropMapperType = {
   array: 'any[]',
   arrayOf: '[]',
   func: '(event: object) => void',
-  enum: '',
-  union: '',
   shape: '',
 };
+
+enum PropTypes {
+  ArrayOf = 'arrayOf',
+  Enum = 'enum',
+  Union = 'union',
+  Shape = 'shape',
+}
 
 function isPropType(prop: Prop, propType: string) {
   return prop.type.name === propType;
 }
 
-function buildProp(prop: Prop) {
-  if (isPropType(prop, 'arrayOf')) {
-    const propValue = prop.type.value as Prop;
-    const propName = prop.type.name;
-    return {
-      name: PropMapper[propValue.name] + PropMapper[propName],
-      required: prop.required,
-    };
+function buildArrayOfType(prop: Prop): PropAttrs {
+  const propValue = prop.type.value as Prop;
+  const propName = prop.type.name;
+  return {
+    type: PropMapper[propValue.name] + PropMapper[propName],
+    required: prop.required,
+  };
+}
+
+function buildOneOf(prop: Prop): PropAttrs {
+  const value = prop.type.value as ValueArray;
+  const values = value.map(oneOf => oneOf.value).join(' | ');
+  return {
+    type: values,
+    required: prop.required,
+  };
+}
+
+function buildOneOfType(prop: Prop): PropAttrs {
+  const value = prop.type.value as ValueArray;
+  const values = value.map(oneOf => PropMapper[oneOf.name]).join(' | ');
+  return {
+    type: values,
+    required: prop.required,
+  };
+}
+
+function buildProp(prop: Prop): PropAttrs {
+  if (isPropType(prop, PropTypes.ArrayOf)) {
+    return buildArrayOfType(prop);
+  }
+
+  if (isPropType(prop, PropTypes.Enum)) {
+    return buildOneOf(prop);
+  }
+
+  if (isPropType(prop, PropTypes.Union)) {
+    return buildOneOfType(prop);
   }
 
   return {
-    name: PropMapper[prop.type.name] || prop.type.name,
+    type: PropMapper[prop.type.name] || prop.type.name,
     required: prop.required,
   };
 }
@@ -81,11 +116,30 @@ export async function generate() {
   const component = await readFile();
   const componentAST = parse(component);
   const result: Result = {};
+  const allShapes: { [key: string]: Result } = {};
 
   for (const [propName, prop] of Object.entries(componentAST.props)) {
-    console.log(prop);
-    result[propName] = buildProp(prop);
+    if (isPropType(prop, PropTypes.Shape)) {
+      const shapeResult: Result = {};
+      const props = prop.type.value as Props;
+
+      for (const [propName, prop] of Object.entries(props)) {
+        shapeResult[propName] = {
+          type: PropMapper[prop.name],
+          required: prop.required,
+        };
+      }
+
+      allShapes[propName] = shapeResult;
+      result[propName] = {
+        type: propName,
+        required: prop.required,
+      };
+    } else {
+      result[propName] = buildProp(prop);
+    }
   }
 
   console.log(result);
+  console.log(allShapes);
 }
