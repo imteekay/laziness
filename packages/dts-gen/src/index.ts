@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 import { resolve } from 'path';
 import { parse, Prop, ValueArray, Props } from 'react-docgen';
+import { capitalize } from './helpers/capitalize';
 
 async function readFile() {
   const componentFilePath = resolve(__dirname, 'Sample.js');
@@ -130,8 +131,11 @@ export async function generate() {
         };
       }
 
-      allShapes[propName] = shapeResult;
-      result[propName] = {
+      const typeName = capitalize(propName);
+
+      allShapes[typeName] = shapeResult;
+
+      result[typeName] = {
         type: propName,
         required: prop.required,
       };
