@@ -2,49 +2,49 @@ declare module 'react-docgen' {
   export type ValueArray = Value[];
   export type ValueType = Props | Prop | ValueArray;
 
-  export interface ComponentInfo {
+  export type ComponentInfo = {
     displayName: string;
     props: Props;
     methods: Method[];
-  }
+  };
 
-  export interface Props {
+  export type Props = {
     [key: string]: Prop;
-  }
+  };
 
-  export interface Prop {
+  export type Prop = {
     name: string;
     required: boolean;
     type: Type;
     description: string;
     value: ValueType;
-  }
+  };
 
-  export interface Value {
+  export type Value = {
     value: number | string | Props;
     computed: boolean;
     name: string;
-  }
+  };
 
-  export interface Type {
+  export type Type = {
     name: string;
     value: ValueType;
-  }
+  };
 
-  export interface Method {
+  export type Method = {
     params: Param[];
     returns: Returns;
     name: string;
-  }
+  };
 
-  export interface Param {
+  export type Param = {
     type: Type;
     name: string;
-  }
+  };
 
-  export interface Returns {
+  export type Returns = {
     type: Type;
-  }
+  };
 
   export function parse(content: string): ComponentInfo;
 }
