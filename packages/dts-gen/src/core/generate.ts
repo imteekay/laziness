@@ -2,7 +2,6 @@ import { parse } from 'react-docgen';
 import { capitalize } from '../helpers/capitalize';
 import { Result } from '../types/dtsTypes';
 import { PropTypes } from '../helpers/propTypeMappers';
-import { readFile } from './read';
 import {
   isPropType,
   buildTypeForShape,
@@ -10,9 +9,8 @@ import {
   buildShapeProp,
 } from './builders';
 
-export async function generate() {
-  const component = await readFile();
-  const componentAST = parse(component);
+export async function generate(sourceCode: string) {
+  const componentAST = parse(sourceCode);
   const result: Result = {};
   const allShapes: { [key: string]: Result } = {};
 

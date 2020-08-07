@@ -1,3 +1,4 @@
+export default `
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -23,3 +24,4 @@ Sample.propTypes = {
 };
 
 export default Sample;
+`;
