@@ -10,3 +10,10 @@ export type Result = {
 export type PropMapperType = {
   [key: string]: string;
 };
+
+export type TemplateParams = {
+  componentName: string;
+  types: Result;
+};
+
+export type Shapes = { [key: string]: Result };

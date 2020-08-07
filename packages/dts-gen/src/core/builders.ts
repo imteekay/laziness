@@ -1,6 +1,6 @@
 import { ComponentInfo, Prop, ValueArray, Props } from 'react-docgen';
 import { capitalize } from '../helpers/capitalize';
-import { PropAttrs, Result } from '../types/dtsTypes';
+import { PropAttrs, Result, Shapes } from '../types/dtsTypes';
 import { PropMapper, PropTypes } from '../helpers/propTypeMappers';
 
 export function isPropType(prop: Prop, propType: string) {
@@ -67,7 +67,7 @@ export function buildTypeForShape(prop: Prop) {
   return shapeResult;
 }
 
-export function buildShapeProp(prop: Prop, typeName: string) {
+export function buildShapeProp(prop: Prop, typeName: string): PropAttrs {
   return {
     type: typeName,
     required: prop.required,
@@ -76,18 +76,18 @@ export function buildShapeProp(prop: Prop, typeName: string) {
 
 export function build(componentAST: ComponentInfo) {
   const result: Result = {};
-  const allShapes: { [key: string]: Result } = {};
+  const shapes: Shapes = {};
 
   for (const [propName, prop] of Object.entries(componentAST.props)) {
     if (isPropType(prop, PropTypes.Shape)) {
       const shapeResult = buildTypeForShape(prop);
       const typeName = capitalize(propName);
-      allShapes[typeName] = shapeResult;
+      shapes[typeName] = shapeResult;
       result[propName] = buildShapeProp(prop, typeName);
     } else {
       result[propName] = buildProp(prop);
     }
   }
 
-  return { result, allShapes };
+  return { result, shapes };
 }
