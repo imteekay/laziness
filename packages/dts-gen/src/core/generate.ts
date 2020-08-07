@@ -40,6 +40,13 @@ function generateCustomTypeTemplates(shapes: Shapes) {
   return templates;
 }
 
+function joinTemplates(
+  mainComponentTemplate: string,
+  customTypeTemplates: string[]
+) {
+  return [...customTypeTemplates, mainComponentTemplate].join('\n\n');
+}
+
 export async function generate(sourceCode: string) {
   const componentAST = parse(sourceCode);
   const { result, shapes } = build(componentAST);
@@ -50,6 +57,5 @@ export async function generate(sourceCode: string) {
     types: result,
   });
 
-  console.log(customTypeTemplates.join('\n\n'));
-  console.log(mainComponentTemplate);
+  return joinTemplates(mainComponentTemplate, customTypeTemplates);
 }
