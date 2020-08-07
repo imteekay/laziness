@@ -135,8 +135,8 @@ export async function generate() {
 
       allShapes[typeName] = shapeResult;
 
-      result[typeName] = {
-        type: propName,
+      result[propName] = {
+        type: typeName,
         required: prop.required,
       };
     } else {
