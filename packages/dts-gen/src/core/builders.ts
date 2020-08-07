@@ -65,3 +65,10 @@ export function buildTypeForShape(prop: Prop) {
 
   return shapeResult;
 }
+
+export function buildShapeProp(prop: Prop, typeName: string) {
+  return {
+    type: typeName,
+    required: prop.required,
+  };
+}

@@ -3,7 +3,12 @@ import { capitalize } from '../helpers/capitalize';
 import { Result } from '../types/dtsTypes';
 import { PropTypes } from '../helpers/propTypeMappers';
 import { readFile } from './read';
-import { isPropType, buildTypeForShape, buildProp } from './builders';
+import {
+  isPropType,
+  buildTypeForShape,
+  buildProp,
+  buildShapeProp,
+} from './builders';
 
 export async function generate() {
   const component = await readFile();
@@ -15,13 +20,8 @@ export async function generate() {
     if (isPropType(prop, PropTypes.Shape)) {
       const shapeResult = buildTypeForShape(prop);
       const typeName = capitalize(propName);
-
       allShapes[typeName] = shapeResult;
-
-      result[propName] = {
-        type: typeName,
-        required: prop.required,
-      };
+      result[propName] = buildShapeProp(prop, typeName);
     } else {
       result[propName] = buildProp(prop);
     }
