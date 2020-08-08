@@ -1,7 +1,7 @@
 {
   "name": "@laziness/lazy-cypress",
   "description": "Automate Cypress integration tests",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "TK <leandrotk100@gmail.com>",
   "private": false,
   "main": "dist/LazyCypress.js",
@@ -25,12 +25,11 @@
     "start": "cp -f ./tsconfig.dev.json ./tsconfig.json && react-scripts start",
     "build": "cp -f ./tsconfig.prod.json ./tsconfig.json && webpack",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "publish": "npm run build && npm publish"
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leandrotk/laziness"
+    "url": "git+https://github.com/leandrotk/laziness.git"
   },
   "homepage": "https://github.com/leandrotk/laziness",
   "eslintConfig": {
@@ -57,5 +56,9 @@
   "devDependencies": {
     "ts-loader": "^7.0.5",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/leandrotk/laziness/issues"
+  },
+  "license": "ISC"
 }
