@@ -1,5 +1,8 @@
 {
+  "name": "@laziness/dts-gen",
   "version": "0.1.0",
+  "description": "Generate dts types from React prop types source code.",
+  "author": "TK",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,8 +34,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "dts-gen",
-  "author": "TK",
   "module": "dist/dts-gen.esm.js",
   "devDependencies": {
     "@types/react": "^16.9.44",
@@ -41,5 +42,15 @@
     "tsdx": "^0.13.2",
     "tslib": "^2.0.0",
     "typescript": "^3.9.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrotk/laziness/tree/master/packages/dts-gen"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "types",
+    "dts"
+  ]
 }
