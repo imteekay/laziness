@@ -1,11 +1,12 @@
 declare module 'react-docgen' {
+  export function parse(content: string): ComponentInfo;
+
   export type ValueArray = Value[];
   export type ValueType = Props | Prop | ValueArray;
 
   export type ComponentInfo = {
     displayName: string;
     props: Props;
-    methods: Method[];
   };
 
   export type Props = {
@@ -30,21 +31,4 @@ declare module 'react-docgen' {
     name: string;
     value: ValueType;
   };
-
-  export type Method = {
-    params: Param[];
-    returns: Returns;
-    name: string;
-  };
-
-  export type Param = {
-    type: Type;
-    name: string;
-  };
-
-  export type Returns = {
-    type: Type;
-  };
-
-  export function parse(content: string): ComponentInfo;
 }
