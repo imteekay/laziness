@@ -10,7 +10,7 @@ export const PropMapper: PropMapperType = {
   node: 'React.ReactNode',
   array: 'any[]',
   arrayOf: '[]',
-  func: '(event: object) => void',
+  func: '() => void',
 };
 
 export enum PropTypes {

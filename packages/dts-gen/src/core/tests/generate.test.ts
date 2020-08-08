@@ -1,30 +1,15 @@
 import { generate } from '../generate';
-import sourceCode from './mock';
-
-const expectedTypes = `type User = {
-  name?: string;
-  age?: number;
-};
-
-type Sample = {
-  any?: any;
-  isVisible: boolean;
-  index?: number;
-  string?: string;
-  object?: object;
-  element?: React.ReactElement<any>;
-  children?: React.ReactNode;
-  products?: any[];
-  messages?: string[];
-  onChange: (event: object) => void;
-  status?: 'active' | 'inactive' | 'blocked';
-  nameOrAge?: string | number;
-  user: User;
-};`;
+import { simpleSourceCode, expectedSimpleTypes } from './simpleMock';
+import { complexSourceCode, expectedComplexTypes } from './complexMock';
 
 describe('generate', () => {
-  it('returns the correct types', async () => {
-    const types = await generate(sourceCode);
-    expect(types).toEqual(expectedTypes);
+  it('returns the correct types for simple source code', async () => {
+    const types = await generate(simpleSourceCode);
+    expect(types).toEqual(expectedSimpleTypes);
+  });
+
+  it('returns the correct types for multiple shapes', async () => {
+    const types = await generate(complexSourceCode);
+    expect(types).toEqual(expectedComplexTypes);
   });
 });
