@@ -2,17 +2,17 @@ import { parse } from 'react-docgen';
 import { build } from './builders';
 import { PropAttrs, TemplateParams, Shapes } from '../types/dtsTypes';
 
-function generateTypeNameTemplate(typeName: string) {
+export function generateTypeNameTemplate(typeName: string) {
   return `type ${typeName} = {`;
 }
 
-function generateAttributeType(prop: string, propAttr: PropAttrs) {
+export function generateAttributeType(prop: string, propAttr: PropAttrs) {
   const { type, required } = propAttr;
   const optional = required ? '' : '?';
   return `  ${prop}${optional}: ${type};`;
 }
 
-function generateEndOfTemplate() {
+export function generateEndOfTemplate() {
   return '};';
 }
 
@@ -40,7 +40,7 @@ function generateCustomTypeTemplates(shapes: Shapes) {
   return templates;
 }
 
-function joinTemplates(
+export function joinTemplates(
   mainComponentTemplate: string,
   customTypeTemplates: string[]
 ) {
