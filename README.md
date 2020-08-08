@@ -6,7 +6,7 @@ Laziness is a set of tools for a better developer experience in React.
 
 ## Packages
 
-For now, the repository contains two devtools
+For now, the repository contains three devtools
 
 - [`@laziness/lazy-cypress`](https://github.com/leandrotk/laziness/tree/master/packages/lazy-cypress): A tool to automate Cypress integration tests in your React app.
 - [`@laziness/boring-test`](https://github.com/leandrotk/laziness/tree/master/packages/boring-test): A tool to automate React component tests.
