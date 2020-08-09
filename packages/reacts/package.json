@@ -1,5 +1,8 @@
 {
+  "name": "@laziness/reacts",
   "version": "0.1.0",
+  "description": "A tool to automatically type your React components with TypeScript.",
+  "author": "TK",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -29,8 +32,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "reacts",
-  "author": "TK",
   "module": "dist/reacts.esm.js",
   "devDependencies": {
     "husky": "^4.2.5",
