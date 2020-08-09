@@ -2,7 +2,7 @@
 
 > Project Status: Experimental ⚠️
 
-Laziness is a set of tools for a better developer experience in React.
+Laziness is a set of tools for a better developer experience.
 
 ## Packages
 
