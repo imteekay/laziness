@@ -1,4 +1,7 @@
 {
+  "name": "@laziness/lazy-cypress-api",
+  "description": "API to generate Cypress code",
+  "author": "TK",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -29,8 +32,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "lazy-cypress-api",
-  "author": "TK",
   "module": "dist/lazy-cypress-api.esm.js",
   "devDependencies": {
     "husky": "^4.2.5",
