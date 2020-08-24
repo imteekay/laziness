@@ -6,6 +6,7 @@ import {
   ButtonFieldPropertiesType,
   CheckFieldPropertiesType,
   FieldPropertiesType,
+  FieldButtonType,
 } from './types';
 
 enum FieldAttributes {
@@ -18,7 +19,7 @@ function getFormFields(form: HTMLFormElement): HTMLFormElement[] {
   return [...form.querySelectorAll<HTMLFormElement>('input,textarea,select')];
 }
 
-const fieldTypes: string[] = [
+const fieldTypes = [
   'text',
   'textarea',
   'search',

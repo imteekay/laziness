@@ -22,9 +22,7 @@ export function copy() {
 
 export function addFormSubmitListener() {
   document.addEventListener('DOMContentLoaded', () => {
-    const formElements: HTMLCollectionOf<HTMLFormElement> = document.getElementsByTagName(
-      'form'
-    );
+    const formElements = document.getElementsByTagName('form');
     const forms: HTMLFormElement[] = [...formElements];
 
     forms.forEach((form: HTMLFormElement) =>
