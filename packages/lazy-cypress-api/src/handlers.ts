@@ -16,7 +16,9 @@ enum FieldAttributes {
 }
 
 function getFormFields(form: HTMLFormElement): HTMLFormElement[] {
-  return [...form.querySelectorAll<HTMLFormElement>('input,textarea,select')];
+  return Array.from(
+    form.querySelectorAll<HTMLFormElement>('input,textarea,select')
+  );
 }
 
 const fieldTypes = [

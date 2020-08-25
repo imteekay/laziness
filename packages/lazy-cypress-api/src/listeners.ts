@@ -22,11 +22,10 @@ export function copy() {
 
 export function addFormSubmitListener() {
   document.addEventListener('DOMContentLoaded', () => {
-    const formElements = document.getElementsByTagName('form');
-    const forms: HTMLFormElement[] = [...formElements];
+    const forms = Array.from(document.getElementsByTagName('form'));
 
-    forms.forEach((form: HTMLFormElement) =>
-      form.addEventListener('submit', updateFormSessionStorage(form))
-    );
+    forms.forEach((form: HTMLFormElement) => {
+      form.addEventListener('submit', updateFormSessionStorage(form));
+    });
   });
 }
