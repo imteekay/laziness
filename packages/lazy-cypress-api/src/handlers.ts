@@ -44,7 +44,7 @@ function getFormField({
 }: FormFieldProperties): FormFieldType {
   if (field == null || attributeValue == null) return null;
 
-  const fieldName: string = field.tagName.toLowerCase();
+  const fieldName = field.tagName.toLowerCase();
   const formField = get(fieldName)
     .withAttribute(attribute)
     .andValue(attributeValue);
@@ -57,25 +57,25 @@ function generateTest(formFieldProperties: FormFieldProperties) {
 
   if (formField == null) {
     return {
-      forInput: (_: string): string => '',
-      forRadioButton: (): string => '',
-      forCheckbox: (): string => '',
-      forSelect: (_: string): string => '',
-      forMutipleSelect: (_: string): string => '',
-      forSubmitButton: (): string => '',
+      forInput: (_: string) => '',
+      forRadioButton: () => '',
+      forCheckbox: () => '',
+      forSelect: (_: string) => '',
+      forMutipleSelect: (_: string) => '',
+      forSubmitButton: () => '',
     };
   }
 
   return {
-    forInput: (userValue: string): string =>
+    forInput: (userValue: string) =>
       `  cy.get('${formField}').type('${userValue}');\n`,
-    forRadioButton: (): string => `  cy.get('${formField}').click();\n`,
-    forCheckbox: (): string => `  cy.get('${formField}').click();\n`,
-    forSelect: (option: string): string =>
+    forRadioButton: () => `  cy.get('${formField}').click();\n`,
+    forCheckbox: () => `  cy.get('${formField}').click();\n`,
+    forSelect: (option: string) =>
       `  cy.get('${formField}').select('${option}');\n`,
-    forMutipleSelect: (options: string): string =>
+    forMutipleSelect: (options: string) =>
       `  cy.get('${formField}').select(${options});\n`,
-    forSubmitButton: (): string => `  cy.get('${formField}').click();\n`,
+    forSubmitButton: () => `  cy.get('${formField}').click();\n`,
   };
 }
 
@@ -101,7 +101,7 @@ function updateRadioButton(field: HTMLFormElement) {
   if (fieldLabel == null) return;
 
   const attribute: string = FieldAttributes.For;
-  const attributeValue: string | null = fieldLabel.getAttribute('for');
+  const attributeValue = fieldLabel.getAttribute('for');
   const fieldProperties: CheckFieldPropertiesType = {
     field: fieldLabel,
     attribute,
@@ -119,7 +119,7 @@ function updateCheckbox(field: HTMLFormElement) {
   if (fieldLabel == null) return;
 
   const attribute: string = FieldAttributes.For;
-  const attributeValue: string | null = fieldLabel.getAttribute('for');
+  const attributeValue = fieldLabel.getAttribute('for');
   const fieldProperties: CheckFieldPropertiesType = {
     field: fieldLabel,
     attribute,
