@@ -34,9 +34,8 @@ const fieldTypes = [
 ];
 
 function getSelectedOptionsValues(field: HTMLFormElement): string[] {
-  return [...field.selectedOptions].map(
-    (option: HTMLOptionElement) => option.value
-  );
+  const selectedOptions = Array.from<HTMLOptionElement>(field.selectedOptions);
+  return selectedOptions.map((option: HTMLOptionElement) => option.value);
 }
 
 function getFormField({
@@ -82,8 +81,8 @@ function generateTest(formFieldProperties: FormFieldProperties) {
 }
 
 function updateInput(field: HTMLFormElement) {
-  const attribute: string = FieldAttributes.Name;
-  const attributeValue: string = field.name;
+  const attribute = FieldAttributes.Name;
+  const attributeValue = field.name;
   const fieldProperties: FieldPropertiesType = {
     field,
     attribute,
@@ -102,7 +101,7 @@ function updateRadioButton(field: HTMLFormElement) {
 
   if (fieldLabel == null) return;
 
-  const attribute: string = FieldAttributes.For;
+  const attribute = FieldAttributes.For;
   const attributeValue = fieldLabel.getAttribute('for');
   const fieldProperties: CheckFieldPropertiesType = {
     field: fieldLabel,
@@ -120,7 +119,7 @@ function updateCheckbox(field: HTMLFormElement) {
 
   if (fieldLabel == null) return;
 
-  const attribute: string = FieldAttributes.For;
+  const attribute = FieldAttributes.For;
   const attributeValue = fieldLabel.getAttribute('for');
   const fieldProperties: CheckFieldPropertiesType = {
     field: fieldLabel,
@@ -132,12 +131,12 @@ function updateCheckbox(field: HTMLFormElement) {
 }
 
 function updateSelect(field: HTMLFormElement) {
-  const attribute: string = FieldAttributes.Name;
-  const attributeValue: string = field.name;
+  const attribute = FieldAttributes.Name;
+  const attributeValue = field.name;
   const selectOption: HTMLFormElement = field[
     field.selectedIndex
   ] as HTMLFormElement;
-  const selectOptionTest: string = selectOption.text;
+  const selectOptionTest = selectOption.text;
   const fieldProperties: FieldPropertiesType = {
     field,
     attribute,
@@ -150,10 +149,10 @@ function updateSelect(field: HTMLFormElement) {
 }
 
 function updateMutipleSelect(field: HTMLFormElement) {
-  const attribute: string = FieldAttributes.Name;
-  const attributeValue: string = field.name;
-  const selectedOptions: string[] = getSelectedOptionsValues(field);
-  const stringifiedSelectedOptions: string = JSON.stringify(selectedOptions);
+  const attribute = FieldAttributes.Name;
+  const attributeValue = field.name;
+  const selectedOptions = getSelectedOptionsValues(field);
+  const stringifiedSelectedOptions = JSON.stringify(selectedOptions);
   const fieldProperties: FieldPropertiesType = {
     field,
     attribute,
@@ -173,8 +172,8 @@ function getButton(form: HTMLFormElement): FieldButtonType {
 
 function updateSubmitButton(form: HTMLFormElement) {
   const field: FieldButtonType = getButton(form);
-  const attribute: string = FieldAttributes.TestId;
-  const attributeValue: string = 'submit-button';
+  const attribute = FieldAttributes.TestId;
+  const attributeValue = 'submit-button';
   const fieldProperties: ButtonFieldPropertiesType = {
     field,
     attribute,
