@@ -9,13 +9,13 @@ This project was inspired by [Akira Matsuda's heavens_door](https://github.com/a
 Using yarn:
 
 ```bash
-$ yarn add lazy-cypress -D
+$ yarn add @laziness/lazy-cypress -D
 ```
 
 Using npm:
 
 ```bash
-$ npm install lazy-cypress --save-dev
+$ npm install @laziness/lazy-cypress --save-dev
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ $ npm install lazy-cypress --save-dev
 Import the LazyCypress component in your page
 
 ```jsx
-import { LazyCypress } from 'lazy-cypress';
+import { LazyCypress } from "@laziness/lazy-cypress";
 ```
 
 And add the component into the page
