@@ -2,7 +2,7 @@
   "name": "@laziness/lazy-cypress-api",
   "description": "API to generate Cypress code",
   "author": "TK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
