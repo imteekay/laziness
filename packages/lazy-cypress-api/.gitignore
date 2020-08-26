@@ -59,3 +59,4 @@ jspm_packages/
 # production
 /dist
 .cache
+/example/dist
