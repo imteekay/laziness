@@ -1369,6 +1369,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@laziness/lazy-cypress-api@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@laziness/lazy-cypress-api/-/lazy-cypress-api-0.1.1.tgz#f8e948a70b53a8142b046d29fc2bae048c8f3553"
+  integrity sha512-MFuz3jNgHnVZcfJ6qcntz6uA2GhYT+nNfCCL8kthZDJMnOO26N2A/VCCD4MrDNr/dhzeTwj1DqfQUgM4zB/h/Q==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
