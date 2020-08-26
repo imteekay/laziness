@@ -1,7 +1,7 @@
 {
   "name": "@laziness/lazy-cypress",
   "description": "Automate Cypress integration tests",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "TK <leandrotk100@gmail.com>",
   "private": false,
   "main": "dist/LazyCypress.js",
