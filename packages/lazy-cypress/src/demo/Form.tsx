@@ -22,26 +22,20 @@ export const Form = () => (
 
       <div>
         Hobbies:
-
         <input type="checkbox" name="hobbie1" id="hobbie1" value="coding" />
         <label htmlFor="hobbie1">Coding</label>
-
         <input type="checkbox" name="hobbie2" id="hobbie2" value="reading" />
         <label htmlFor="hobbie2">Reading</label>
-
         <input type="checkbox" name="hobbie3" id="hobbie3" value="writing" />
         <label htmlFor="hobbie3">Writing</label>
       </div>
 
       <div>
         OS:
-
         <input type="radio" name="os1" id="os1" value="windows" />
         <label htmlFor="os1">Windows</label>
-
         <input type="radio" name="os2" id="os2" value="mac" />
         <label htmlFor="os2">Mac</label>
-
         <input type="radio" name="os3" id="os3" value="linux" />
         <label htmlFor="os3">Linux</label>
       </div>
@@ -72,10 +66,7 @@ export const Form = () => (
         </div>
       </div>
 
-      <button
-        type="submit"
-        data-testid="submit-button"
-      >
+      <button type="submit" data-testid="submit-button">
         Submit
       </button>
     </form>
