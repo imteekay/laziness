@@ -6,7 +6,7 @@ Laziness is a set of tools for a better developer experience.
 
 ## Packages
 
-For now, the repository contains three devtools
+For now, the repository contains four devtools
 
 - [`@laziness/lazy-cypress`](https://github.com/leandrotk/laziness/tree/master/packages/lazy-cypress): A tool to automate Cypress integration tests in your React app.
 - [`@laziness/lazy-cypress-api`](https://github.com/leandrotk/laziness/tree/master/packages/lazy-cypress-api): An API to generate Cypress code.
