@@ -1,0 +1,2809 @@
+{
+  "total": {
+    "lines": { "total": 3370, "covered": 3252, "skipped": 0, "pct": 96.5 },
+    "statements": {
+      "total": 3709,
+      "covered": 3574,
+      "skipped": 0,
+      "pct": 96.36
+    },
+    "functions": { "total": 1241, "covered": 1177, "skipped": 0, "pct": 94.84 },
+    "branches": { "total": 1107, "covered": 1031, "skipped": 0, "pct": 93.13 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/config.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/fullstory-config.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/i18n.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/reducers.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 7, "covered": 6, "skipped": 0, "pct": 85.71 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/address.ts": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/affiliate.ts": {
+    "lines": { "total": 32, "covered": 32, "skipped": 0, "pct": 100 },
+    "functions": { "total": 16, "covered": 16, "skipped": 0, "pct": 100 },
+    "statements": { "total": 32, "covered": 32, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 2, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/apis.ts": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/banks.ts": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/city.ts": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/doorman.ts": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/helpers.ts": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "branches": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/lead.ts": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/mgm-invitation.ts": {
+    "lines": { "total": 10, "covered": 9, "skipped": 0, "pct": 90 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 9, "skipped": 0, "pct": 90 },
+    "branches": { "total": 7, "covered": 5, "skipped": 0, "pct": 71.43 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/firestore/collections.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/firestore/constants.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/firestore/functions.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/api/firestore/setup.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/auth/AffiliatesOnlyHoc/actions.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/auth/AffiliatesOnlyHoc/constants.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/auth/AffiliatesOnlyHoc/handlers.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/auth/AffiliatesOnlyHoc/index.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/AddressForm/Select.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/AddressForm/index.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/AccountNumberField/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/AccountTypeSelector/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/BankSelector/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/BranchField/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/TitularityFields/index.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/TitularityFields/ExtraFields/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/TitularityFields/TitularitySelector/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/BankDataForm/VerifierCodeField/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/CloseAppBar/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/ContentWrapper/StyledContentWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/ContentWrapper/index.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/CpfField/index.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DateField/Mask.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DateField/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/DirectReferral.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/ElevatedBox.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/actions.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/constants.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/helpers.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/hooks.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 2, "skipped": 0, "pct": 66.67 },
+    "statements": { "total": 11, "covered": 10, "skipped": 0, "pct": 90.91 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/index.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/ShareDirectReferral/CopySnackbar.js": {
+    "lines": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/ShareDirectReferral/ShareButton.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/DirectReferral/ShareDirectReferral/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FeaturedCard/Card.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FeaturedCard/CardDetails.js": {
+    "lines": { "total": 10, "covered": 7, "skipped": 0, "pct": 70 },
+    "functions": { "total": 6, "covered": 3, "skipped": 0, "pct": 50 },
+    "statements": { "total": 12, "covered": 9, "skipped": 0, "pct": 75 },
+    "branches": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FeaturedCard/CardMedia.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FeaturedCard/ContentTypography.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FeaturedCard/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FeaturedCard/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/Feedback/IconWrapper.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/Feedback/InnerContent.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/Feedback/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/Fields/Field/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 7, "skipped": 0, "pct": 87.5 },
+    "branches": { "total": 6, "covered": 5, "skipped": 0, "pct": 83.33 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FormSelect/index.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/FormWrapper/FormWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/HelpBox/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/InfiniteList/LoadingWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/InfiniteList/index.js": {
+    "lines": { "total": 36, "covered": 36, "skipped": 0, "pct": 100 },
+    "functions": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "statements": { "total": 36, "covered": 36, "skipped": 0, "pct": 100 },
+    "branches": { "total": 24, "covered": 24, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/ListFooter/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/Loader/MuiCircularProgress.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/Loader/StyledLoader.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/Loader/index.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/NewListFooter/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/PhoneInput/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/PhoneInput/index.js": {
+    "lines": { "total": 22, "covered": 22, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 22, "covered": 22, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 5, "skipped": 0, "pct": 83.33 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/AddressWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/constants.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/index.js": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "branches": { "total": 31, "covered": 28, "skipped": 0, "pct": 90.32 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/AutoCompleteBar/SearchBarInnerWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/AutoCompleteBar/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/AutoCompleteSuggestions/GoogleWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/AutoCompleteSuggestions/ListItemPrimaryText.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/AutoCompleteSuggestions/Paper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SearchBar/AutoCompleteSuggestions/index.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SelectorWrapper/SelectorWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SelectorWrapper/index.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SmoothScrollButton/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SwitchInput/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/SwitchWrapper/index.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/TabPanel/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/TextInput/TextInput.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/TextInput/index.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/ValidatorForm/ValidatorForm.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/ValidatorForm/index.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/WaffleMenuContent/AdvertiseYourHouse.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/WaffleMenuContent/BeRealEstateAgent.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/WaffleMenuContent/IndicationsDoubts.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/WaffleMenuContent/SearchHouse.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/WaffleMenuContent/Wrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/WaffleMenuContent/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/YesNoToggle/constants.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/components/YesNoToggle/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/AccessDeniedPage/actions.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/AccessDeniedPage/constants.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/AccessDeniedPage/index.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 },
+    "statements": { "total": 8, "covered": 7, "skipped": 0, "pct": 87.5 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/GlobalSnackBar.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/LoadingWrapper.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/RequestLoading.js": {
+    "lines": { "total": 8, "covered": 7, "skipped": 0, "pct": 87.5 },
+    "functions": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 },
+    "statements": { "total": 8, "covered": 7, "skipped": 0, "pct": 87.5 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/actions.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "statements": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/constants.js": {
+    "lines": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/handlers.js": {
+    "lines": { "total": 38, "covered": 38, "skipped": 0, "pct": 100 },
+    "functions": { "total": 16, "covered": 16, "skipped": 0, "pct": 100 },
+    "statements": { "total": 38, "covered": 38, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/index.js": {
+    "lines": { "total": 19, "covered": 18, "skipped": 0, "pct": 94.74 },
+    "functions": { "total": 9, "covered": 8, "skipped": 0, "pct": 88.89 },
+    "statements": { "total": 20, "covered": 19, "skipped": 0, "pct": 95 },
+    "branches": { "total": 8, "covered": 6, "skipped": 0, "pct": 75 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/reducer.js": {
+    "lines": { "total": 36, "covered": 34, "skipped": 0, "pct": 94.44 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 36, "covered": 34, "skipped": 0, "pct": 94.44 },
+    "branches": { "total": 26, "covered": 23, "skipped": 0, "pct": 88.46 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/App/selectors.js": {
+    "lines": { "total": 29, "covered": 29, "skipped": 0, "pct": 100 },
+    "functions": { "total": 24, "covered": 24, "skipped": 0, "pct": 100 },
+    "statements": { "total": 41, "covered": 41, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Braze/Braze.js": {
+    "lines": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Braze/actions.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "statements": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Braze/brazeInAppMessagePush.js": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 6, "skipped": 0, "pct": 75 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Braze/brazeInAppMessageWhatsapp.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 4, "skipped": 0, "pct": 66.67 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Braze/constants.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Braze/index.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Braze/isBrazeEnabled.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/address.ts": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/doorman.ts": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/doormanFirestore.ts": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/doormanLeadFirestore.ts": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/doormanRecruitmentSteps.ts": {
+    "lines": { "total": 6, "covered": 0, "skipped": 0, "pct": 0 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 6, "covered": 0, "skipped": 0, "pct": 0 },
+    "branches": { "total": 2, "covered": 0, "skipped": 0, "pct": 0 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/lead.ts": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/occupation.ts": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/DoormanRecruitment/model/phone.ts": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/AppBar.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/BackgroundedWrapper.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/CardWithPaperCutOut.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/EarningsContainer.js": {
+    "lines": { "total": 23, "covered": 23, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 23, "covered": 23, "skipped": 0, "pct": 100 },
+    "branches": { "total": 16, "covered": 16, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/FullHeightContainer.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/List.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/NewEarningsContainer.js": {
+    "lines": { "total": 20, "covered": 10, "skipped": 0, "pct": 50 },
+    "functions": { "total": 6, "covered": 1, "skipped": 0, "pct": 16.67 },
+    "statements": { "total": 21, "covered": 10, "skipped": 0, "pct": 47.62 },
+    "branches": { "total": 12, "covered": 5, "skipped": 0, "pct": 41.67 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/actions.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/constants.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/handlers.js": {
+    "lines": { "total": 34, "covered": 28, "skipped": 0, "pct": 82.35 },
+    "functions": { "total": 9, "covered": 7, "skipped": 0, "pct": 77.78 },
+    "statements": { "total": 34, "covered": 28, "skipped": 0, "pct": 82.35 },
+    "branches": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/index.js": {
+    "lines": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "functions": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "statements": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/reducer.js": {
+    "lines": { "total": 17, "covered": 17, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 17, "covered": 17, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 7, "skipped": 0, "pct": 87.5 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/selectors.js": {
+    "lines": { "total": 19, "covered": 19, "skipped": 0, "pct": 100 },
+    "functions": { "total": 19, "covered": 19, "skipped": 0, "pct": 100 },
+    "statements": { "total": 29, "covered": 29, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/EarningsList/index.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/EarningsSkeleton/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/EarningsState/index.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ErrorSnackbar/index.js": {
+    "lines": { "total": 9, "covered": 8, "skipped": 0, "pct": 88.89 },
+    "functions": { "total": 4, "covered": 1, "skipped": 0, "pct": 25 },
+    "statements": { "total": 11, "covered": 8, "skipped": 0, "pct": 72.73 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/HelpItem/ElevatedBox.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/HelpItem/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/HelpItem/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ListItem/ListItem.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 2, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 3, "covered": 1, "skipped": 0, "pct": 33.33 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ListItem/ListItemHeader.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ListItem/ListItemText.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ListItem/NewListItem.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ListItem/NewListItemHeader.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/MonthlySummary/ListItem.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/MonthlySummary/ListItemText.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/MonthlySummary/NewMonthlySummary.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/MonthlySummary/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/NewAppBar/AppBarOuterChildren.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/NewAppBar/TransparentSelect.js": {
+    "lines": { "total": 4, "covered": 1, "skipped": 0, "pct": 25 },
+    "functions": { "total": 3, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 4, "covered": 1, "skipped": 0, "pct": 25 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/NewAppBar/index.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/NewReminderCompleteProfile/index.js": {
+    "lines": { "total": 5, "covered": 4, "skipped": 0, "pct": 80 },
+    "functions": { "total": 3, "covered": 2, "skipped": 0, "pct": 66.67 },
+    "statements": { "total": 6, "covered": 5, "skipped": 0, "pct": 83.33 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ReminderCompleteProfile/CompleteProfileWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Earnings/ReminderCompleteProfile/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/HomePageContainer.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/HomePageMainContent.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/IndicationPrizeMessages.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/IndicationPrizeMsgWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/LeadFormWrapper.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/Logo.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/Paper.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/actions.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/constants.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/index.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/selectors.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/DirectReferral/DirectReferralView.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/DirectReferral/actions.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/DirectReferral/constants.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/DirectReferral/index.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/DirectReferral/DirectReferralContent/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 2, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/DirectReferral/ShareOnlyDirectReferral/index.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/EarningsChart.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/NewEarningsChart.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/colors.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/index.js": {
+    "lines": { "total": 14, "covered": 4, "skipped": 0, "pct": 28.57 },
+    "functions": { "total": 3, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 15, "covered": 4, "skipped": 0, "pct": 26.67 },
+    "branches": { "total": 8, "covered": 0, "skipped": 0, "pct": 0 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/mapToChartData.js": {
+    "lines": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "functions": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "statements": { "total": 24, "covered": 24, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/proptypes.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/reducer.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/useMonthlyEarningsFetch.js": {
+    "lines": { "total": 12, "covered": 11, "skipped": 0, "pct": 91.67 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 11, "skipped": 0, "pct": 91.67 },
+    "branches": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/BarLegend/index.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/State/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/Tooltip/CurrentMonthTooltip.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/Tooltip/EarningsTooltip.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/Tooltip/NewEarningsTooltip.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/Tooltip/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/EarningsChart/tests/mocks.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/HowToEarnMoney/ValueProposition.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/HowToEarnMoney/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/HowToEarnMoney/Step/PositionNumber.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/HowToEarnMoney/Step/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/InviteFriend/LargeButton.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/InviteFriend/index.js": {
+    "lines": { "total": 27, "covered": 22, "skipped": 0, "pct": 81.48 },
+    "functions": { "total": 12, "covered": 9, "skipped": 0, "pct": 75 },
+    "statements": { "total": 32, "covered": 27, "skipped": 0, "pct": 84.38 },
+    "branches": { "total": 8, "covered": 4, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/InviteFriend/validations.js": {
+    "lines": { "total": 31, "covered": 31, "skipped": 0, "pct": 100 },
+    "functions": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "statements": { "total": 33, "covered": 32, "skipped": 0, "pct": 96.97 },
+    "branches": { "total": 23, "covered": 20, "skipped": 0, "pct": 86.96 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/ProfileSummary/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/UserData/avatarHelpers.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/UserData/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/HomePage/UserData/selectors.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/BackgroundedWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/FullHeightContainer.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/IndicationsContainer.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/NewIndicationsContainer.js": {
+    "lines": { "total": 11, "covered": 8, "skipped": 0, "pct": 72.73 },
+    "functions": { "total": 3, "covered": 2, "skipped": 0, "pct": 66.67 },
+    "statements": { "total": 11, "covered": 8, "skipped": 0, "pct": 72.73 },
+    "branches": { "total": 4, "covered": 2, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/Wrapper.js": {
+    "lines": { "total": 2, "covered": 0, "skipped": 0, "pct": 0 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 0, "skipped": 0, "pct": 0 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/actions.ts": {
+    "lines": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "functions": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "statements": { "total": 21, "covered": 21, "skipped": 0, "pct": 100 },
+    "branches": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/constants.ts": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/handlers.ts": {
+    "lines": { "total": 37, "covered": 37, "skipped": 0, "pct": 100 },
+    "functions": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "statements": { "total": 37, "covered": 37, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/index.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/reducer.ts": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/selectors.ts": {
+    "lines": { "total": 26, "covered": 26, "skipped": 0, "pct": 100 },
+    "functions": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "statements": { "total": 35, "covered": 35, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/AdditionalContent/DesktopSideContent.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/AdditionalContent/IndicationsInfoButton.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/AdditionalContent/MobileBottomContent.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/AdditionalContent/index.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/EmptyState/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ErrorSnackbar/index.js": {
+    "lines": { "total": 9, "covered": 8, "skipped": 0, "pct": 88.89 },
+    "functions": { "total": 4, "covered": 1, "skipped": 0, "pct": 25 },
+    "statements": { "total": 11, "covered": 8, "skipped": 0, "pct": 72.73 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/Filter/FilterContainer.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/Filter/index.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "statements": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/Filter/Options/ByPeriod/index.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/Filter/Options/Status/FormControlLabel.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/Filter/Options/Status/Radio.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/Filter/Options/Status/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/IndicationsSkeleton/CardSkeleton.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/IndicationsSkeleton/CounterSkeleton.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/IndicationsSkeleton/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/IndicationsSkeleton/index.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/IndicationsState/index.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/CardContent.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/CardsContainer.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/CardsList.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/ChipWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/IndicationCards.js": {
+    "lines": { "total": 9, "covered": 2, "skipped": 0, "pct": 22.22 },
+    "functions": { "total": 3, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 9, "covered": 2, "skipped": 0, "pct": 22.22 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/ListContent.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/ListHeader.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/LoadMoreButton.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/NewResultsList.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "branches": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/index.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Indications/ResultsList/utils.js": {
+    "lines": { "total": 36, "covered": 36, "skipped": 0, "pct": 100 },
+    "functions": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "statements": { "total": 41, "covered": 41, "skipped": 0, "pct": 100 },
+    "branches": { "total": 24, "covered": 24, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CtaButton.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/FlexCenterWrap.js": {
+    "lines": { "total": 3, "covered": 0, "skipped": 0, "pct": 0 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 0, "skipped": 0, "pct": 0 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Intro.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/IntroView.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/SecondFold.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Section.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/SectionItem.js": {
+    "lines": { "total": 4, "covered": 0, "skipped": 0, "pct": 0 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 0, "skipped": 0, "pct": 0 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/TextEmphasis.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/actions.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/constants.js": {
+    "lines": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/QuintoAndarLogo.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/ScreenReaderText.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/index.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/Links/Divider.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/Links/Link.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/Links/RegionButton.js": {
+    "lines": { "total": 3, "covered": 2, "skipped": 0, "pct": 66.67 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 3, "covered": 2, "skipped": 0, "pct": 66.67 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/Links/StyledLink.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/Links/Wrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/AppBar/Links/index.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/Button.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/CarpetContent.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/ContentWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/Description.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/FirstFoldTextWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/IndicaAiLogo.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/MainImageWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/Subtitle.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/Title.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/CarpetHeader/index.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/BigNumber.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/GridCenterWrap.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/Step.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/StepExplanationTextWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/StepExplanationWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/StepsWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/Wrapper.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/HowItWorks/index.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/Button.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/ContentContainer.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/FaqLink.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/GridButton.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/KnowMore.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/Links.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/Section.js": {
+    "lines": { "total": 5, "covered": 0, "skipped": 0, "pct": 0 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 0, "skipped": 0, "pct": 0 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/Subtitle.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/Title.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/KnowMore/index.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/PhoneApp/ContentWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/PhoneApp/CustomSection.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/PhoneApp/DescriptionWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/PhoneApp/PhoneImage.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/PhoneApp/TextWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/PhoneApp/Title.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/PhoneApp/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/ReferralOptions/ContentWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/ReferralOptions/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/ReferralOptions/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/ReferralOptions/Card/Wrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/ReferralOptions/Card/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/CityChip.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/RegionsView.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/Wrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/actions.ts": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/constants.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/handlers.js": {
+    "lines": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "functions": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "statements": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/reducer.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/selectors.js": {
+    "lines": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "functions": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "statements": { "total": 21, "covered": 21, "skipped": 0, "pct": 100 },
+    "branches": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/Neighborhoods/CollapseButton.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/Neighborhoods/Grid.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/Neighborhoods/GridContainer.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/Neighborhoods/Wrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Regions/Neighborhoods/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/SectionTitle/Title.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/SectionTitle/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Support/Link.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Support/Message.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Support/Title.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Support/Wrapper.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Support/index.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/Button.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/ContentWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/GridContainer.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/Paper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/Quote.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/Testimonial.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/IntroPage/Testimonials/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InviteFormContainer.js": {
+    "lines": { "total": 29, "covered": 29, "skipped": 0, "pct": 100 },
+    "functions": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "statements": { "total": 30, "covered": 30, "skipped": 0, "pct": 100 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/actions.js": {
+    "lines": { "total": 24, "covered": 23, "skipped": 0, "pct": 95.83 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 30, "covered": 29, "skipped": 0, "pct": 96.67 },
+    "branches": { "total": 10, "covered": 9, "skipped": 0, "pct": 90 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/constants.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/index.js": {
+    "lines": { "total": 16, "covered": 16, "skipped": 0, "pct": 100 },
+    "functions": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "statements": { "total": 19, "covered": 19, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/reducer.js": {
+    "lines": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "functions": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "statements": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "branches": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/selectors.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "statements": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/Feedback/Body.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/Feedback/FeedbackContainer.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/Feedback/index.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/InvitedFriendsContainer.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/actions.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/handlers.js": {
+    "lines": { "total": 17, "covered": 17, "skipped": 0, "pct": 100 },
+    "functions": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "statements": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/reducer.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/selectors.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "statements": { "total": 17, "covered": 17, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/EmptyState/EmptyStateWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/EmptyState/index.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/FriendList/ListContent.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/FriendList/ListItem.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/FriendList/ListSubheader.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/FriendList/ListSubheaderWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/FriendList/friendMapper.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/InviteForm/InvitedFriends/FriendList/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LanguageProvider/actions.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LanguageProvider/constants.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LanguageProvider/reducer.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LanguageProvider/selectors.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Buttons.js": {
+    "lines": { "total": 11, "covered": 6, "skipped": 0, "pct": 54.55 },
+    "functions": { "total": 5, "covered": 3, "skipped": 0, "pct": 60 },
+    "statements": { "total": 12, "covered": 7, "skipped": 0, "pct": 58.33 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/LeadFormView.js": {
+    "lines": { "total": 31, "covered": 30, "skipped": 0, "pct": 96.8 },
+    "functions": { "total": 15, "covered": 14, "skipped": 0, "pct": 93.33 },
+    "statements": { "total": 32, "covered": 31, "skipped": 0, "pct": 96.9 },
+    "branches": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/actions.js": {
+    "lines": { "total": 54, "covered": 51, "skipped": 0, "pct": 94.5 },
+    "functions": { "total": 30, "covered": 28, "skipped": 0, "pct": 94.53 },
+    "statements": { "total": 66, "covered": 63, "skipped": 0, "pct": 95.45 },
+    "branches": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/constants.js": {
+    "lines": { "total": 24, "covered": 24, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 24, "covered": 24, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/index.js": {
+    "lines": { "total": 24, "covered": 22, "skipped": 0, "pct": 91.67 },
+    "functions": { "total": 18, "covered": 16, "skipped": 0, "pct": 88.89 },
+    "statements": { "total": 27, "covered": 25, "skipped": 0, "pct": 92.59 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/reducer.js": {
+    "lines": { "total": 76, "covered": 76, "skipped": 0, "pct": 100 },
+    "functions": { "total": 29, "covered": 29, "skipped": 0, "pct": 100 },
+    "statements": { "total": 79, "covered": 79, "skipped": 0, "pct": 100 },
+    "branches": { "total": 40, "covered": 40, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/selectors.js": {
+    "lines": { "total": 14, "covered": 13, "skipped": 0, "pct": 92.86 },
+    "functions": { "total": 14, "covered": 12, "skipped": 0, "pct": 85.71 },
+    "statements": { "total": 22, "covered": 20, "skipped": 0, "pct": 90.91 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/ErrorDialog/ErrorDialogContainer.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/ErrorDialog/GenericDialogActions.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/ErrorDialog/actions.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "statements": { "total": 17, "covered": 17, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/ErrorDialog/index.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/ErrorDialog/selectors.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/ErrorDialog/utils.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "branches": { "total": 18, "covered": 17, "skipped": 0, "pct": 94.44 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Feedback/ChildrenWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Feedback/FeedbackContainer.js": {
+    "lines": { "total": 13, "covered": 10, "skipped": 0, "pct": 76.92 },
+    "functions": { "total": 5, "covered": 4, "skipped": 0, "pct": 80 },
+    "statements": { "total": 13, "covered": 10, "skipped": 0, "pct": 76.92 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Feedback/actions.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Feedback/constants.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Feedback/index.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Fields/Complement.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Fields/Email.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Fields/ExtraInfo.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Fields/ExtraPhoneButton.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Fields/Name.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Fields/Phone.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Form/Legend.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Form/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/LeadForm/Form/selectors.js": {
+    "lines": { "total": 17, "covered": 15, "skipped": 0, "pct": 88.24 },
+    "functions": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "statements": { "total": 19, "covered": 17, "skipped": 0, "pct": 89.47 },
+    "branches": { "total": 4, "covered": 2, "skipped": 0, "pct": 50 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Login/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/NotFound/AnimatedHouseImage.js": {
+    "lines": { "total": 10, "covered": 9, "skipped": 0, "pct": 90 },
+    "functions": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "statements": { "total": 10, "covered": 9, "skipped": 0, "pct": 90 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/NotFound/AppBar.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/NotFound/NotFound.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/NotFound/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/constants.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/reducer.js": {
+    "lines": { "total": 12, "covered": 11, "skipped": 0, "pct": 91.67 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 11, "skipped": 0, "pct": 91.67 },
+    "branches": { "total": 7, "covered": 6, "skipped": 0, "pct": 85.71 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/selectors.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/CarouselPaginationWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Dialog.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/NewUserView.js": {
+    "lines": { "total": 41, "covered": 35, "skipped": 0, "pct": 85.37 },
+    "functions": { "total": 11, "covered": 10, "skipped": 0, "pct": 90.91 },
+    "statements": { "total": 41, "covered": 35, "skipped": 0, "pct": 85.37 },
+    "branches": { "total": 16, "covered": 11, "skipped": 0, "pct": 68.75 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/actions.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 4, "skipped": 0, "pct": 80 },
+    "statements": { "total": 10, "covered": 9, "skipped": 0, "pct": 90 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/constants.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/index.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "branches": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/panels.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Buttons.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Description.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Title.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Background/Icon.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Background/index.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Media/Icon.js": {
+    "lines": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "functions": { "total": 1, "covered": 0, "skipped": 0, "pct": 0 },
+    "statements": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Media/constants.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Onboardings/NewUsers/Panel/Media/index.js": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "branches": { "total": 10, "covered": 8, "skipped": 0, "pct": 80 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/BankDataFormWrapper.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/ProfileContainer.js": {
+    "lines": { "total": 37, "covered": 36, "skipped": 0, "pct": 97.3 },
+    "functions": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "statements": { "total": 38, "covered": 37, "skipped": 0, "pct": 97.37 },
+    "branches": { "total": 20, "covered": 19, "skipped": 0, "pct": 95 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/actions.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/constants.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/handlers.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/index.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/reducer.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/selectors.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/ErrorDialog/ErrorDialogContainer.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/ErrorDialog/actions.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/ErrorDialog/index.js": {
+    "lines": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 },
+    "functions": { "total": 2, "covered": 1, "skipped": 0, "pct": 50 },
+    "statements": { "total": 5, "covered": 4, "skipped": 0, "pct": 80 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/ErrorDialog/selectors.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/Profile/ErrorDialog/utils.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/SearchAddress/actions.js": {
+    "lines": { "total": 23, "covered": 23, "skipped": 0, "pct": 100 },
+    "functions": { "total": 16, "covered": 15, "skipped": 0, "pct": 93.75 },
+    "statements": { "total": 36, "covered": 35, "skipped": 0, "pct": 97.22 },
+    "branches": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/SearchAddress/address-mapper.js": {
+    "lines": { "total": 41, "covered": 41, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 41, "covered": 41, "skipped": 0, "pct": 100 },
+    "branches": { "total": 39, "covered": 39, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/SearchAddress/constants.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/SearchAddress/index.js": {
+    "lines": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "functions": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "statements": { "total": 16, "covered": 16, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/SearchAddress/reducer.js": {
+    "lines": { "total": 34, "covered": 34, "skipped": 0, "pct": 100 },
+    "functions": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "statements": { "total": 34, "covered": 34, "skipped": 0, "pct": 100 },
+    "branches": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/SearchAddress/selectors.js": {
+    "lines": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "functions": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "statements": { "total": 31, "covered": 31, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/ValidationErrorTextField/index.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/WaffleMenu/constants.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/containers/WaffleMenu/index.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/experiments/amplitude.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/experiments/featureToggle/constants.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/experiments/featureToggle/index.js": {
+    "lines": { "total": 37, "covered": 37, "skipped": 0, "pct": 100 },
+    "functions": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "statements": { "total": 39, "covered": 39, "skipped": 0, "pct": 100 },
+    "branches": { "total": 16, "covered": 16, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/affiliate.js": {
+    "lines": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/firestore.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/userTracking.js": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 16, "covered": 16, "skipped": 0, "pct": 100 },
+    "branches": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/UserSession.js": {
+    "lines": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/amplitude-onboading-events.js": {
+    "lines": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 9, "covered": 9, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/appCue.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "branches": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/brazeEventProps.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/handlers.js": {
+    "lines": { "total": 20, "covered": 20, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 21, "covered": 21, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 5, "skipped": 0, "pct": 83.33 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/index.js": {
+    "lines": { "total": 135, "covered": 133, "skipped": 0, "pct": 98.52 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 137, "covered": 135, "skipped": 0, "pct": 98.54 },
+    "branches": { "total": 72, "covered": 68, "skipped": 0, "pct": 94.44 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/lead-counter.js": {
+    "lines": { "total": 13, "covered": 13, "skipped": 0, "pct": 100 },
+    "functions": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "statements": { "total": 17, "covered": 17, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/lead-props-builder.js": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "branches": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/platforms.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/pushToDataLayer.js": {
+    "lines": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/utm.js": {
+    "lines": { "total": 84, "covered": 83, "skipped": 0, "pct": 98.81 },
+    "functions": { "total": 17, "covered": 17, "skipped": 0, "pct": 100 },
+    "statements": { "total": 88, "covered": 87, "skipped": 0, "pct": 98.86 },
+    "branches": { "total": 34, "covered": 32, "skipped": 0, "pct": 94.12 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/amplitude/waffle-amplitude.js": {
+    "lines": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/braze/brazePush.js": {
+    "lines": { "total": 10, "covered": 10, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 11, "covered": 11, "skipped": 0, "pct": 100 },
+    "branches": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/middleware/braze/index.js": {
+    "lines": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "functions": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "statements": { "total": 14, "covered": 14, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/prop-types/BankPropTypes.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/prop-types/validators/Validator.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/sentry/captureException.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/store/configureStore.testing.js": {
+    "lines": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "branches": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/store/constants.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/asyncInjectors.js": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "statements": { "total": 18, "covered": 18, "skipped": 0, "pct": 100 },
+    "branches": { "total": 12, "covered": 12, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/currency.js": {
+    "lines": { "total": 3, "covered": 3, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/date-time.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "statements": { "total": 8, "covered": 8, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/devices.js": {
+    "lines": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/events.js": {
+    "lines": { "total": 13, "covered": 12, "skipped": 0, "pct": 92.31 },
+    "functions": { "total": 4, "covered": 3, "skipped": 0, "pct": 75 },
+    "statements": { "total": 14, "covered": 13, "skipped": 0, "pct": 92.86 },
+    "branches": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/lead.js": {
+    "lines": { "total": 15, "covered": 15, "skipped": 0, "pct": 100 },
+    "functions": { "total": 7, "covered": 7, "skipped": 0, "pct": 100 },
+    "statements": { "total": 19, "covered": 18, "skipped": 0, "pct": 94.74 },
+    "branches": { "total": 12, "covered": 11, "skipped": 0, "pct": 91.67 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/local-storage.js": {
+    "lines": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "functions": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "statements": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 },
+    "branches": { "total": 0, "covered": 0, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/object.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "statements": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/redux-pack-testing.js": {
+    "lines": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "branches": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/string.js": {
+    "lines": { "total": 5, "covered": 5, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 6, "covered": 6, "skipped": 0, "pct": 100 },
+    "branches": { "total": 4, "covered": 4, "skipped": 0, "pct": 100 }
+  },
+  "/Users/leandrotk/projects/5a/indicaai-pwa/app/utils/strings/capitalize.js": {
+    "lines": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "functions": { "total": 1, "covered": 1, "skipped": 0, "pct": 100 },
+    "statements": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 },
+    "branches": { "total": 2, "covered": 2, "skipped": 0, "pct": 100 }
+  }
+}
