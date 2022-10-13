@@ -1,3 +1,5 @@
+<samp>
+
 # Laziness
 
 > Project Status: Experimental ⚠️
@@ -24,3 +26,5 @@ Take a look at the board to have visibility of the Laziness roadmap: [Laziness B
 - [ ] dts-gen-vscode: [To do](https://github.com/leandrotk/laziness/projects/1#card-43351161)
 - [ ] reacts: [To do](https://github.com/leandrotk/laziness/projects/1#card-43350387)
 - [ ] Type based test: [To do](https://github.com/leandrotk/laziness/projects/1#card-43031842)
+
+</samp>
